@@ -1,8 +1,10 @@
 import org.gradle.internal.jvm.Jvm
-
 plugins {
     id 'java-library'
+    id 'com.github.dcendents.android-maven'
 }
+
+group = 'com.github.xiao-yu-git'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
